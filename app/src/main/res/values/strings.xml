@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OldAni</string>
+    <string name="search_hint">搜索番剧</string>
+    <string name="menu_search">搜索番剧</string>
+    <string name="menu_history">历史记录</string>
+    <string name="menu_settings">设置</string>
+    <string name="no_results">无结果</string>
+    <string name="history_empty">暂无历史记录</string>
+    <string name="episodes">剧集</string>
+    <string name="summary">简介</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="input_url_hint">输入 m3u8/mp4 地址</string>
+    <string name="searching">搜索中...</string>
+    <string name="loading">加载中...</string>
+    <string name="clear_history">清除历史</string>
+    <string name="about">关于</string>
+    <string name="about_text">OldAni - 轻量追番\n支持 Bangumi 数据源\n基于 Animeko 架构精简实现</string>
+    <string name="confirm_clear">确认清除所有历史记录?</string>
+    <string name="yes">确认</string>
+    <string name="no">取消</string>
+    <string name="position_format">%d%%</string>
+    <string name="no_video_url">未设置视频地址</string>
+</resources>

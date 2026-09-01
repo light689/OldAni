@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OldAni" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/bgblack</item>
+        <item name="statusBarBackground">@color/pink</item>
+        <item name="android:colorForeground">@color/textwhite</item>
+        <item name="colorOnPrimary">@color/textwhite</item>
+        <item name="colorPrimary">@color/textwhite</item>
+        <item name="android:textColor">@color/textwhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textViewStyle">@style/TextViewSytle</item>
+        <item name="materialCardViewStyle">@style/CardStyle</item>
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="colorSwitchThumbNormal">@color/textwhite</item>
+        <item name="colorControlActivated">@color/textwhite</item>
+        <item name="colorControlNormal">@color/color_ripple</item>
+    </style>
+
+    <style name="Theme.OldAni.Player" parent="Theme.OldAni">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>
