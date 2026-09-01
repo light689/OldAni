@@ -11,8 +11,7 @@
         android:id="@+id/player_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/bottom_bar"
-        app:useController="true" />
+        android:layout_above="@+id/bottom_bar" />
 
     <LinearLayout
         android:id="@+id/loading"
