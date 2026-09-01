@@ -60,8 +60,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="11sp"
                 android:textColor="@color/textwhite"
-                android:layout_marginTop="auto"
-                android:layout_alignParentBottom="true" />
+                android:layout_marginTop="8dp" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
