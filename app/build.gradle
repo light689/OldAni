@@ -7,10 +7,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(project.findProperty('RELEASE_STORE_FILE') ?: 'oldani.keystore')
-            storePassword project.findProperty('RELEASE_STORE_PASSWORD') ?: 'android'
-            keyAlias project.findProperty('RELEASE_KEY_ALIAS') ?: 'oldani'
-            keyPassword project.findProperty('RELEASE_KEY_PASSWORD') ?: 'android'
+            storeFile file("${rootProject.projectDir}/oldani.keystore")
+            storePassword 'android'
+            keyAlias 'oldani'
+            keyPassword 'android'
         }
     }
 

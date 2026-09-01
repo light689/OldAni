@@ -30,12 +30,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build Release APK (armeabi-v7a, minSdk 21)
-        run: |
-          ./gradlew assembleRelease \
-            -PRELEASE_STORE_FILE=oldani.keystore \
-            -PRELEASE_STORE_PASSWORD=android \
-            -PRELEASE_KEY_ALIAS=oldani \
-            -PRELEASE_KEY_PASSWORD=android
+        run: ./gradlew assembleRelease
 
       - name: Rename APK
         run: |
