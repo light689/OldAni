@@ -1,6 +1,7 @@
 package com.oldani.api;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class BangumiApi {
         this.client = client;
     }
 
-    public List<Subject> search(String keyword) throws IOException {
+    public List<Subject> search(String keyword) throws IOException, JSONException {
         String url = BASE_URL + "/search/subject/" + keyword + "?type=2&max_results=20&start=0";
         String json = get(url);
         JSONArray list = new JSONObject(json).getJSONArray("list");
@@ -42,7 +43,7 @@ public class BangumiApi {
         return results;
     }
 
-    public Subject getSubject(int id) throws IOException {
+    public Subject getSubject(int id) throws IOException, JSONException {
         String url = BASE_URL + "/subject/" + id + "?responseGroup=large";
         String json = get(url);
         JSONObject obj = new JSONObject(json);
